@@ -1,0 +1,95 @@
+.container {
+    /*width: 1000px;*/
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.question-input {
+    width: 50%;
+    padding: 15px 10px 15px 25px;
+    border: 1px solid #ccc;
+    height: 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25)
+}
+.question-input:hover{
+    width: 50%;
+    padding: 15px 10px 15px 25px;
+    border: 1px solid #ccc;
+    height: 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0 2px 8px 1px rgba(64,60,67,.24)
+}
+
+.submit-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.input-container{
+    width: 100%
+}
+
+.response-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    text-align: left;
+}
+
+.response-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.response-text {
+    font-size: 16px;
+    color: #333;
+    white-space: pre-wrap;
+}
+
+.download-button {
+    background-color: #2964aa;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #e3e3e3;
+    color: #000000
+}
+
+.download-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
